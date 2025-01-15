@@ -27,11 +27,11 @@
       "name": "ReportSection",
       "visualContainers": [
         {
-          "config": "{\"name\":\"4bcd5782e35082c622d0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":0,\"width\":280,\"height\":280,\"z\":0,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"RDM COUNTRY.COUNTRY_CODE\"},{\"queryRef\":\"RDM COUNTRY.COUNTRY_NAME\"},{\"queryRef\":\"Sum(RDM COUNTRY.COUNTRY_SKEY)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"RDM COUNTRY\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"COUNTRY_CODE\"},\"Name\":\"RDM COUNTRY.COUNTRY_CODE\",\"NativeReferenceName\":\"COUNTRY_CODE\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"COUNTRY_NAME\"},\"Name\":\"RDM COUNTRY.COUNTRY_NAME\",\"NativeReferenceName\":\"COUNTRY_NAME\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"COUNTRY_SKEY\"}},\"Function\":0},\"Name\":\"Sum(RDM COUNTRY.COUNTRY_SKEY)\",\"NativeReferenceName\":\"Sum of COUNTRY_SKEY\"}]},\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"4bcd5782e35082c622d0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.448891554591802,\"y\":0,\"z\":0,\"width\":772.9193291656094,\"height\":413.86145009112096,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"RDM COUNTRY.COUNTRY_CODE\"},{\"queryRef\":\"RDM COUNTRY.COUNTRY_NAME\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"RDM COUNTRY\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"COUNTRY_CODE\"},\"Name\":\"RDM COUNTRY.COUNTRY_CODE\",\"NativeReferenceName\":\"COUNTRY_CODE\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"COUNTRY_NAME\"},\"Name\":\"RDM COUNTRY.COUNTRY_NAME\",\"NativeReferenceName\":\"COUNTRY_NAME\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
-          "height": 280.00,
-          "width": 280.00,
-          "x": 10.00,
+          "height": 413.86,
+          "width": 772.92,
+          "x": 9.45,
           "y": 0.00,
           "z": 0.00
         }
